@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dt_extension_build_and_upload"
+version = "0.0.1"
+description = "Automate versioning, build and upload for DT extensions"
+authors = ["Ben Davidson <32000249+tukanuk@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^5.4.1"
+requests = "^2.27.1"
+dt-cli = "^1.0.0"
+argparse = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
